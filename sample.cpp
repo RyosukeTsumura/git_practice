@@ -1,18 +1,21 @@
 #include <iostream>
 
 int sum(int, int);
+int dev(int, int);
 
 int main()
 {
 	int a = 5, int b = 3;
 	std::cout << sum(a, b)  << std::endl;
-	std::cout << "This is master" << std::endl;
+	std::cout << dev(a, b)	<< std::endl;
 	return 0;
-
 }
 
 int sum(int a, int b)
 {
 	return a + b;
 }
-
+int dev(int a, int b)
+{
+	return a * b;
+}
