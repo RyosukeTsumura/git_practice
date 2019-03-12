@@ -6,7 +6,9 @@ int main()
 {
 	int a = 5, int b = 3;
 	std::cout << sum(a, b)  << std::endl;
+	std::cout << "This is master" << std::endl;
 	return 0;
+
 }
 
 int sum(int a, int b)
