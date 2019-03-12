@@ -5,7 +5,7 @@ int dev(int, int);
 
 int main()
 {
-	int a = 5, int b = 3;
+	int a = 5;  int b = 3;
 	std::cout << sum(a, b)  << std::endl;
 	std::cout << dev(a, b)	<< std::endl;
 	return 0;
